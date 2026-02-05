@@ -29,6 +29,11 @@ export default function HomePage() {
           </div>
         </div>
         <div className="hero-card">
+          <img
+            className="hero-card-image"
+            src="/hero-system.avif"
+            alt="Warm industrial light above engineering workspace"
+          />
           <div className="card-icon" aria-hidden="true">
             <svg viewBox="0 0 64 64">
               <path d="M12 44 L32 12 L52 44" />
