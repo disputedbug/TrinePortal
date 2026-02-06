@@ -443,6 +443,51 @@ a {
   filter: blur(10px);
 }
 
+.customers {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.customers .eyebrow {
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.customers h2 {
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  font-family: var(--font-serif), "Georgia", serif;
+  margin-bottom: 2rem;
+}
+
+.customers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+.customer-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+  background: var(--card);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 20px rgba(15, 28, 31, 0.08);
+}
+
+.customer-photo {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(15, 28, 31, 0.1);
+  object-fit: contain;
+  padding: 6px;
+  flex-shrink: 0;
+}
+
 .content-section {
   padding: 4rem 0 5rem;
 }

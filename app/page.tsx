@@ -49,6 +49,56 @@ export default function HomePage() {
         </div>
       </div>
       <div className="hero-glow" aria-hidden="true" />
+      <div className="container customers">
+        <p className="eyebrow">Our Customers</p>
+        <h2>Trusted by teams that value reliability.</h2>
+        <div className="customers-grid">
+          <div className="customer-card">
+            <img
+              className="customer-photo"
+              src="/customers/polaris.svg"
+              alt="Polaris logo"
+            />
+            <div>
+              <h3>Polaris</h3>
+              <p>Engineering solutions partner</p>
+            </div>
+          </div>
+          <div className="customer-card">
+            <img
+              className="customer-photo"
+              src="/customers/uppcl.png"
+              alt="UP Power Corporation Ltd. logo"
+            />
+            <div>
+              <h3>UP Power Corporation Ltd.</h3>
+              <p>Power distribution partner</p>
+            </div>
+          </div>
+          <div className="customer-card">
+            <img
+              className="customer-photo"
+              src="/customers/mib.svg"
+              alt="Ministry of Information and Broadcasting, India logo"
+            />
+            <div>
+              <h3>Ministry of Information and Broadcasting, India</h3>
+              <p>Government communications partner</p>
+            </div>
+          </div>
+          <div className="customer-card">
+            <img
+              className="customer-photo"
+              src="/customers/up.png"
+              alt="Uttar Pradesh Chief Minister Office logo"
+            />
+            <div>
+              <h3>Uttar Pradesh Chief Minister Office</h3>
+              <p>Public sector collaboration</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
