@@ -6,11 +6,7 @@ export default function SiteHeader() {
       <div className="container header-inner">
         <Link href="/" className="brand" aria-label="Trine Engineering Private Limited">
           <span className="brand-icon" aria-hidden="true">
-            <svg viewBox="0 0 48 48" role="img">
-              <circle cx="24" cy="24" r="20" />
-              <path d="M16 26 L24 14 L32 26" />
-              <rect x="19" y="26" width="10" height="8" rx="1.5" />
-            </svg>
+            <img src="/trine-logo.png" alt="" />
           </span>
           <span className="brand-text">
             <span className="brand-name">Trine Engineering</span>
