@@ -18,9 +18,9 @@ export default function SiteHeader() {
             Home
           </Link>
           <div className="nav-dropdown">
-            <Link href="/about" className="nav-link nav-parent">
+            <button type="button" className="nav-link nav-parent nav-button" aria-haspopup="true">
               About
-            </Link>
+            </button>
             <div className="dropdown-menu" role="menu" aria-label="About submenu">
               <Link href="/about" className="dropdown-item" role="menuitem">
                 About Us
@@ -32,7 +32,7 @@ export default function SiteHeader() {
                 Key Personnel
               </Link>
               <Link href="/about/legal" className="dropdown-item" role="menuitem">
-                Legal
+                Statutory Details
               </Link>
             </div>
           </div>

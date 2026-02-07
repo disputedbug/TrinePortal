@@ -111,6 +111,13 @@ a {
   padding-bottom: 0.4rem;
 }
 
+.nav-button {
+  background: transparent;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
 .nav-dropdown {
   position: relative;
   display: inline-flex;

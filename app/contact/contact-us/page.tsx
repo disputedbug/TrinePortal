@@ -9,11 +9,11 @@ export default function ContactUsPage() {
           <div className="content-card">
             <h3>General Enquiries</h3>
             <p>Phone: +91-818281-2020</p>
-            <p>Email: contact@trineengineering.com</p>
+            <p>Email: trine.engineering@gmail.com</p>
           </div>
           <div className="content-card">
             <h3>Project Discussions</h3>
-            <p>Email: projects@trineengineering.com</p>
+            <p>Email: trine.engineering@gmail.com</p>
             <p>Response within 2 business days.</p>
           </div>
           <div className="content-card">
