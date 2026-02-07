@@ -26,6 +26,13 @@ export default function KeyPersonnelPage() {
             <p>Director of Technology</p>
             <p>21 years in Software Development</p>
           </div>
+          <div className="content-card">
+            <div className="profile-photo" aria-hidden="true" />
+            <h3>Mayank Shukla</h3>
+            <p>B. Tech. (CSE)</p>
+            <p>Director of Operations</p>
+            <p>22 years in Telecom Industry</p>
+          </div>
         </div>
       </div>
     </section>
