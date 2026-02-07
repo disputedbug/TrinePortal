@@ -17,25 +17,31 @@ export default function SiteHeader() {
           <Link href="/" className="nav-link">
             Home
           </Link>
-          <Link href="/about" className="nav-link">
-            About
-          </Link>
-          <Link href="/services" className="nav-link">
-            Services
-          </Link>
           <div className="nav-dropdown">
-            <Link href="/contact/contact-us" className="nav-link nav-parent">
-              Contact
+            <Link href="/about" className="nav-link nav-parent">
+              About
             </Link>
-            <div className="dropdown-menu" role="menu" aria-label="Contact submenu">
-              <Link href="/contact/contact-us" className="dropdown-item" role="menuitem">
-                Contact Us
+            <div className="dropdown-menu" role="menu" aria-label="About submenu">
+              <Link href="/about" className="dropdown-item" role="menuitem">
+                About Us
               </Link>
-              <Link href="/contact/key-personnel" className="dropdown-item" role="menuitem">
+              <Link href="/about/products" className="dropdown-item" role="menuitem">
+                Products
+              </Link>
+              <Link href="/about/key-personnel" className="dropdown-item" role="menuitem">
                 Key Personnel
+              </Link>
+              <Link href="/about/legal" className="dropdown-item" role="menuitem">
+                Legal
               </Link>
             </div>
           </div>
+          <Link href="/services" className="nav-link">
+            Services
+          </Link>
+          <Link href="/contact/contact-us" className="nav-link">
+            Contact
+          </Link>
         </nav>
       </div>
     </header>

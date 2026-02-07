@@ -8,6 +8,12 @@ export default function KeyPersonnelPage() {
         <div className="content-grid">
           <div className="content-card">
             <div className="profile-photo" aria-hidden="true" />
+            <h3>Dr. Preeti Verma</h3>
+            <p>Chairman & Managing Director, Co-Founder, Trine Engineering</p>
+            <p>Founder, Saathiya Foundation</p>
+          </div>
+          <div className="content-card">
+            <div className="profile-photo" aria-hidden="true" />
             <h3>Ashish Pandey</h3>
             <p>B. Tech. (CSE)</p>
             <p>Founder, Trine Engineering</p>
@@ -15,14 +21,8 @@ export default function KeyPersonnelPage() {
           </div>
           <div className="content-card">
             <div className="profile-photo" aria-hidden="true" />
-            <h3>Dr. Preeti Verma</h3>
-            <p>Co-Founder, Trine Engineering</p>
-            <p>Founder, Saathiya Foundation</p>
-          </div>
-          <div className="content-card">
-            <div className="profile-photo" aria-hidden="true" />
             <h3>Himanshu Sharma</h3>
-            <p>B. Tech (CSE), MNNIT</p>
+            <p>B. Tech (CSE)</p>
             <p>Director of Technology</p>
             <p>21 years in Software Development</p>
           </div>
