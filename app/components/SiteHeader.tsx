@@ -31,8 +31,8 @@ export default function SiteHeader() {
               <Link href="/about/key-personnel" className="dropdown-item" role="menuitem">
                 Key Personnel
               </Link>
-              <Link href="/about/legal" className="dropdown-item" role="menuitem">
-                Statutory Details
+              <Link href="/about/statutory" className="dropdown-item" role="menuitem">
+                Statutory
               </Link>
             </div>
           </div>

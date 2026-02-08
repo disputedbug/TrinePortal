@@ -1,9 +1,9 @@
-export default function LegalPage() {
+export default function StatutoryPage() {
   return (
     <section className="content-section">
       <div className="container">
-        <p className="eyebrow">Statutory Details</p>
-        <h1>Statutory Details</h1>
+        <p className="eyebrow">Statutory</p>
+        <h1>Statutory</h1>
         <div className="legal-table">
           <div className="legal-row legal-header">
             <div>Sr. No.</div>
