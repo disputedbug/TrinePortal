@@ -1,9 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/services/page": "app/services/page.js",
-  "/about/statutory/page": "app/about/statutory/page.js",
-  "/contact/contact-us/page": "app/contact/contact-us/page.js",
-  "/about/page": "app/about/page.js",
   "/about/products/page": "app/about/products/page.js",
-  "/about/key-personnel/page": "app/about/key-personnel/page.js"
+  "/about/key-personnel/page": "app/about/key-personnel/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/contact-us/page": "app/contact/contact-us/page.js",
+  "/page": "app/page.js"
 }

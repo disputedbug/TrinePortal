@@ -17,6 +17,7 @@ export default function SiteFooter() {
         <div className="container footer-bar-inner">
           <span>© 2026 Trine Engineering Private Limited</span>
           <span>Built for future-ready infrastructure</span>
+          <span>Designed and developed by TEPL Development team.</span>
         </div>
       </div>
     </footer>
